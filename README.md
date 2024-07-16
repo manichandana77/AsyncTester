@@ -146,7 +146,8 @@ json
   "excel_file_name": "path/to/excel_directory"
 }
 
-Configuration
+Configuration:
+
 payload_file_path: Path to the YAML file containing the payload data.
 number_of_users: Number of concurrent users to simulate.
 endpoint: The HTTP endpoint to send requests to.

@@ -42,10 +42,10 @@ source env/bin/activate  # On Windows, use `env\Scripts\activate`
 Install the required packages:
 pip install -r requirements.txt
 
-Usage
+Usage:
 Create a YAML file with your payload data. 
-Example:
 
+Example:
 yaml
 Payload:
   - index: 1
@@ -145,8 +145,8 @@ json
   "file_name": "output.json",
   "excel_file_name": "path/to/excel_directory"
 }
-Configuration
 
+Configuration
 payload_file_path: Path to the YAML file containing the payload data.
 number_of_users: Number of concurrent users to simulate.
 endpoint: The HTTP endpoint to send requests to.
@@ -161,9 +161,9 @@ HTTP Requests: Handles request errors, HTTP status errors, and unexpected errors
 JSON Parsing: Catches and logs JSON decoding errors.
 Logging: Logs errors and important information for easier debugging.
 
-Contributing
+Contributing:
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-License
+License:
 This project is licensed under the MIT License.
 
